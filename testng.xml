@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="User Tests Suite" parallel="methods" thread-count="3">
+    <test name="User Endpoint Tests">
+        <classes>
+            <class name="testing.UserServiceCreateTest"/>
+            <class name="testing.UserServiceDeleteTest"/>
+            <class name="testing.UserServiceGetTest"/>
+            <class name="testing.UserServiceUpdateTest"/>
+        </classes>
+    </test>
+</suite>
